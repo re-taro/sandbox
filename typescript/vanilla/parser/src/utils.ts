@@ -1,4 +1,4 @@
-import { char } from './char'
+import { char } from './characters'
 import { cat, not, rep } from './combinators'
 import type { Parser } from './types'
 

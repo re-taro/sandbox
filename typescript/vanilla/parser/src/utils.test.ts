@@ -1,6 +1,6 @@
 import { diff, list, map, opt, str } from './utils'
-import { char, digit } from './char'
-import type { Digit } from './char'
+import { char, digit } from './characters'
+import type { Digit } from './characters'
 import type { ParserOutput } from './types'
 import type { Option } from './utils'
 

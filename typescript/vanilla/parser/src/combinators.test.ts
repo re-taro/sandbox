@@ -1,5 +1,5 @@
 import { cat, not, or, rep } from './combinators'
-import { char } from './char'
+import { char } from './characters'
 import type { ParserOutput } from './types'
 
 describe('not(char("a"))', () => {

@@ -1,5 +1,5 @@
-import { alpha, char, digit, is, lowerAlpha, upperAlpha } from './char'
-import type { Alphabet, Digit, LowerAlphabet, UpperAlphabet } from './char'
+import { alpha, char, digit, is, lowerAlpha, upperAlpha } from './characters'
+import type { Alphabet, Digit, LowerAlphabet, UpperAlphabet } from './characters'
 import type { ParserOutput } from './types'
 
 describe('char("a")', () => {
