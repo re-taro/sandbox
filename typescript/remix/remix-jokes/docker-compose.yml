@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  mysql:
+    image: mysql:8.0.28
+    container_name: mysql-container
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: joke-db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+      TZ: "Asia/Tokyo"
+    tmpfs:
+      - /var/lib/mysql
+    volumes:
+      - ./my.cnf:/etc/mysql/conf.d/my.cnf
